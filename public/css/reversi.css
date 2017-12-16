@@ -1,0 +1,33 @@
+html {
+    zoom: 1.5;
+}
+
+.reversiBoard .pieces td {
+    padding: 0;
+}
+
+.blankPiece, .whitePiece, .blackPiece {
+    width: 2em;
+    height: 2em;
+    margin: 2em;
+    border-radius: 2em;
+    margin: .5em;
+}
+
+.whitePiece {
+    border: 3px solid black;
+    background-color: white;
+}
+
+.blackPiece {
+    border: 3px solid white;
+    background-color: black;
+}
+
+.hint {
+    opacity: 0;
+}
+
+.hintDisplay {
+    opacity: .5;
+}
